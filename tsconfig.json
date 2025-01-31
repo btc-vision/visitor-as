@@ -10,6 +10,8 @@
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
     "noEmitOnError": true,
     "allowJs": false,
     "strictNullChecks": true,
@@ -20,8 +22,8 @@
     "strict": true,
     "lib": ["esnext","esnext.string"],
     "outDir": "dist"
-    
+
   },
   "include": ["src/**/*"],
-  "exclude": ["node_modules/**/*"]
+  "exclude": ["node_modules/**/*", "node_modules"]
 }

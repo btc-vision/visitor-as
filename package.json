@@ -1,6 +1,6 @@
 {
-  "name": "visitor-as",
-  "version": "0.11.4",
+  "name": "@btc-vision/visitor-as",
+  "version": "0.11.5",
   "description": "A generic visitor framework for AssemblyScript",
   "main": "dist/index.js",
   "types": "dist",
@@ -12,25 +12,26 @@
   "scripts": {
     "test": "mocha",
     "test:mocha": "npx mocha",
-    "build": "rimraf dist/ && tsc -p src"
+    "build": "rimraf dist/ && tsc -p src --skipLibCheck"
   },
   "peerDependencies": {
-    "assemblyscript": "^0.25.0"
+    "assemblyscript": "^0.27.0",
+    "@types/node": "^22.12.0"
   },
   "devDependencies": {
-    "@assemblyscript/loader": "^0.25.0",
-    "@types/lodash.clonedeep": "^4.5.7",
-    "@types/node": "^18.11.13",
-    "assemblyscript": "^0.25.0",
-    "chai": "^4.3.7",
-    "mocha": "^10.2.0",
-    "prettier": "^2.8.1",
-    "rimraf": "^3.0.2",
-    "ts-node": "^10.9.1",
-    "typescript": "^4.9.4"
+    "@assemblyscript/loader": "^0.27.32",
+    "@types/lodash.clonedeep": "^4.5.9",
+    "@types/node": "^22.12.0",
+    "assemblyscript": "^0.27.32",
+    "chai": "^5.1.2",
+    "mocha": "^11.1.0",
+    "prettier": "^3.4.2",
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
   },
   "dependencies": {
     "lodash.clonedeep": "^4.5.0",
-    "ts-mixer": "^6.0.2"
+    "ts-mixer": "^6.0.4"
   }
 }
