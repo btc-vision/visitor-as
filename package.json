@@ -1,6 +1,6 @@
 {
   "name": "@btc-vision/visitor-as",
-  "version": "0.11.5",
+  "version": "0.11.6",
   "description": "A generic visitor framework for AssemblyScript",
   "main": "dist/index.js",
   "types": "dist",
@@ -15,20 +15,20 @@
     "build": "rimraf dist/ && tsc -p src --skipLibCheck"
   },
   "peerDependencies": {
-    "assemblyscript": "^0.27.0",
-    "@types/node": "^22.12.0"
+    "assemblyscript": "^0.28.3",
+    "@types/node": "^24.0.13"
   },
   "devDependencies": {
-    "@assemblyscript/loader": "^0.27.32",
+    "@assemblyscript/loader": "^0.28.3",
     "@types/lodash.clonedeep": "^4.5.9",
-    "@types/node": "^22.12.0",
-    "assemblyscript": "^0.27.32",
-    "chai": "^5.1.2",
-    "mocha": "^11.1.0",
-    "prettier": "^3.4.2",
+    "@types/node": "^24.0.13",
+    "assemblyscript": "^0.28.3",
+    "chai": "^5.2.1",
+    "mocha": "^11.7.1",
+    "prettier": "^3.6.2",
     "rimraf": "^6.0.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5.7.3"
+    "typescript": "^5.8.3"
   },
   "dependencies": {
     "lodash.clonedeep": "^4.5.0",
