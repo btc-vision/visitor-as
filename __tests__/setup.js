@@ -1,4 +1,4 @@
-import { compileString } from "assemblyscript/dist/asc.js";
+import { compileString } from "@btc-vision/assemblyscript/dist/asc.js";
 
 import * as loader from "@assemblyscript/loader";
 

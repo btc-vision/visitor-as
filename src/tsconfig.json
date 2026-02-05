@@ -1,26 +1,31 @@
 {
-  "compilerOptions": {
-    "outDir": "../dist",
-    "inlineSourceMap": true,
-    "inlineSources": true,
-    "target": "esnext",
-    "module": "esnext",
-    "moduleResolution": "node",
-    "downlevelIteration": true,
-    "preserveConstEnums": true,
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop":true,
-    "alwaysStrict": true,
-    "noImplicitAny": true,
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
-    "noEmitOnError": true,
-    "allowJs": false,
-    "strictNullChecks": true,
-    "experimentalDecorators": true,
-    "declaration": true,
-    "strict": true,
-    "lib": ["esnext","esnext.string"]
-  },
-  "include": ["./**/*"]
+    "compilerOptions": {
+        "outDir": "../dist",
+        "inlineSourceMap": true,
+        "inlineSources": true,
+        "target": "esnext",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "downlevelIteration": true,
+        "preserveConstEnums": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "alwaysStrict": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noEmitOnError": true,
+        "allowJs": false,
+        "strictNullChecks": true,
+        "experimentalDecorators": true,
+        "declaration": true,
+        "strict": true,
+        "lib": [
+            "esnext",
+            "esnext.string"
+        ]
+    },
+    "include": [
+        "./**/*"
+    ]
 }
