@@ -1,6 +1,6 @@
 {
   "name": "@btc-vision/visitor-as",
-  "version": "0.12.1",
+  "version": "0.13.0",
   "description": "A generic visitor framework for AssemblyScript",
   "main": "dist/index.js",
   "types": "dist",

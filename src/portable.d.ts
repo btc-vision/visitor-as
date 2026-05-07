@@ -1,2 +1,2 @@
-/// <reference types="@btc-vision/assemblyscript/std/portable" />
-/// <reference types="@types/node/index" />
+/// <reference path="../node_modules/@btc-vision/assemblyscript/std/portable/index.d.ts" />
+/// <reference types="node" />

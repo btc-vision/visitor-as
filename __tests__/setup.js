@@ -1,6 +1,6 @@
 import { compileString } from "@btc-vision/assemblyscript/dist/asc.js";
 
-import * as loader from "@assemblyscript/loader";
+import * as loader from "@btc-vision/as-loader";
 
 export async function compileExample(code, transform) {
   const res = await compile(code, transform);
